@@ -238,7 +238,6 @@ function tablaDelSeis(){
     tabla6.push( 6 * i);
   }
     return tabla6;
-  
 }
 
 function tieneTresDigitos(numero){
