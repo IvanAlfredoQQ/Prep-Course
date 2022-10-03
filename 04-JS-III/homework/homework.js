@@ -184,7 +184,7 @@ function empiezaConNueve(n) {
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
   let j = 1;
-  for(let i = 0; i < 10; i++){
+  for(let i = 0; i < 100; i++){
     if(Math.floor((n/j)) === 9 ){
       return true;
     }
@@ -282,8 +282,10 @@ function continueStatement(numero) {
     if(i === 5){
       continue;
     }
+    else{
     numero = numero + 2;
     cont.push(numero);
+    }
   }
     return cont;
 }
